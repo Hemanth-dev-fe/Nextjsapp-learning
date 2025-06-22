@@ -1,0 +1,16 @@
+cricket match:
+
+
+1.  startMatchConfiguration: 
+
+    here I was updated like
+
+
+              a. match details here just updated like name overs 
+              b. snack bar here updated like when click the skip the show the value
+              
+2. matchDetals :
+
+
+here I was updated as I created the dialog inside updating team name, total overs and target value
+

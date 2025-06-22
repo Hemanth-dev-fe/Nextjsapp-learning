@@ -1,0 +1,19 @@
+.cricscore
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+    padding: 5%;
+    
+
+}
+.cricscorebody
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}

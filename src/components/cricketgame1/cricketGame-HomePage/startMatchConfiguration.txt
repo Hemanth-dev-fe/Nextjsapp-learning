@@ -1,0 +1,8 @@
+startMatchConfiguration
+matchdetails
+main scoreboarddisplay
+delimap for input field
+action creating buttons and display input
+
+
+additionaly---

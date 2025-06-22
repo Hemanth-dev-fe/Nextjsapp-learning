@@ -1,0 +1,31 @@
+.button-contained1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 0;
+}
+.button
+{
+    flex: 1 1 calc(33.333% - 10px);
+    cursor: pointer;
+}
+.button-contained2
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.button1
+{
+    flex: 1 1 calc(100% - 10px);
+    cursor: pointer;
+    
+}
