@@ -14,7 +14,7 @@ export async function POST(req)
         const response=NextResponse.json({message:"Token is Refreshed"})
 response.cookies.set('accessToken',newAccessToken,{
     httpOnly:true,
-    secure:false,
+    secure:true,
     sameSite:'Strict',
     path:'/',
     maxAge:60*15
