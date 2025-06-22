@@ -177,7 +177,7 @@ disabled={loading}
                     {loading?"Loging...":"Login"}
                     </button>
             </form>
-            <button onClick={handleOpenRegister}>Don't have an account?Register</button>
+            <button onClick={handleOpenRegister}>Don&apos;t have an account? Sign up now.</button>
            </div>
         </div>
         </>

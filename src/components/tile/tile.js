@@ -1,5 +1,6 @@
 "use client"
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 function Tile() {
@@ -17,7 +18,7 @@ function Tile() {
                         Quiz Game
                     </Typography>
                     <CardMedia>
-                        <img src="quiz.jpg" style={{ width: "100px",height:"100px" }} alt="Quiz Game" />
+                        <Image src="quiz.jpg" style={{ width: "100px",height:"100px" }} alt="Quiz Game" />
                     </CardMedia>
                 </CardContent>
             </Card>
