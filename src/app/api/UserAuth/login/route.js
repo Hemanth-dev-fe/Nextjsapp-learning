@@ -26,14 +26,14 @@ const refreshToken=jwt.sign({id:user._id},process.env.REFRESH_TOKEN_SECRET, {exp
 
 res.cookies.set('accessToken',accessToken,{
     httpOnly:true,
-    secure:false,
+    secure:true,
     sameSite:"Strict",
     path:'/',
     maxAge:60*15
 })
 res.cookies.set('refreshToken',refreshToken,{
     httpOnly:true,
-    secure:false,
+    secure:true,
     sameSite:"Strict",
     path:'/',
     maxAge:60 * 60 * 24 * 7
